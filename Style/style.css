@@ -31,11 +31,11 @@ li a:hover{
 .postagens{
     display: flex;
     background-color: #848484;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 100%;
     margin: auto;
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 8%;
     margin-bottom: 10px;
 }
 .posts{
@@ -46,8 +46,8 @@ li a:hover{
 }
 
 .img {
-    width: 550px; 
-    height: 50%;
+    width: 50%; 
+    height: 70%;
     margin-right: auto;
     margin-top: 5px;
 }
@@ -55,10 +55,19 @@ li a:hover{
 .datapost{
     margin-top: 10px;
     margin-bottom: 10px;
+    
+}
+
+p {
+    padding: 10px;
 }
 
 p > a{
     color: #E6E6E6;    
+}
+
+a {
+    margin-top: 10px;
 }
 
 p > a:hover{
@@ -66,6 +75,11 @@ p > a:hover{
     background-color: blue;
     border-radius: 100px;
     transition: 1s;
+}
+
+h2 {
+    padding-left: 10px;
+    color: black;
 }
 
   @media (max-width: 768px) {
