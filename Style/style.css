@@ -5,32 +5,14 @@
     padding: 10px;
 }
 
-#links{
-    display: flex;
-    padding: 20px;
-    list-style: none;
-}
-
-li a:hover{
-    background-color: black;
-    color: #fff;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
 .container{
-    background: #2E2E2E;
+    background: #424242;
 }
 
-#menu {
-    background: #1b1515;
-    padding: 10px;
-    margin-bottom: 10px;
-}
 
 .postagens{
     display: flex;
-    background-color: #848484;
+    background-color: #585858;
     width: 80%;
     height: 100%;
     margin: auto;
@@ -71,10 +53,10 @@ a {
 }
 
 p > a:hover{
-    color: aqua;
-    background-color: blue;
+    color: black;
+    background-color: #E3CEF6;
     border-radius: 100px;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 h2 {
@@ -96,7 +78,51 @@ h2 {
 
 footer{
     text-align: center;
-    padding: 5%;
+    align-items: center;
+    padding: 3%;
     color: #fff;
-    background-color: #848484;
+    background-color: #6E6E6E;
+}
+
+.redes-sociais li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.redes-sociais ul > li a{
+    color: black;
+}
+
+.redes-sociais ul > li a:hover{
+    color: #ffff;
+    background-color: #c3c3c3;
+    border-radius: 10px;
+    transition: 0.8s;
+
+}
+
+#logo{
+    float: right;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#links{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+#links li > a:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.9s;
+}
+
+#menu {
+    background: #6E6E6E;
+    padding: 10px;
+    margin-bottom: 10px;
 }
